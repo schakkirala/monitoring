@@ -16,7 +16,7 @@ scrape_configs:
     scrape_interval: 10s       # override default value
     scrape_timeout: 10s       # override default value
     static_configs:
-      - targets: ["3.110.28.230:9090"]     # The target here it's Prometheus itself.
+      - targets: ["https://zany-trout-g4gg6jj554394j-9090.app.github.dev/"]     # The target here it's Prometheus itself.
 
 
   - job_name: "bikeshare-app"
